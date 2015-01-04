@@ -1,0 +1,19 @@
+.header {
+	padding: 0 $L-gutter-width;
+}
+
+.primary-nav {
+	
+	position: absolute;
+	right: $L-gutter-width;
+	padding-top: 25px;
+
+	&__item {
+		float: left;
+		padding-right: 25px;
+
+		&--last {
+			padding: 0;
+		}
+	}
+}

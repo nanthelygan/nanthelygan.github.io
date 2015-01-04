@@ -1,0 +1,113 @@
+.feature-grid {
+	
+	&__row, &__panel {
+		padding:0;
+	}
+
+	&__row {
+		&--first {
+			position: relative;
+			padding-top: 200px;
+		}
+	}
+
+	&__panel--product, &__intro-header {
+		.banner__text {
+			text-indent: 999px;
+			background-image: $S-glyph;
+			background-size: $S-glyph-2x-size;			
+			background-repeat: no-repeat;
+		}
+	}
+
+	&__panel {
+		position: relative;
+
+		&--intro {
+			position: absolute;
+			top:0px;
+		}
+
+		&--static-image {
+			img {
+				width: 100%;
+			}
+		}
+		
+		&--product {
+			margin-bottom: 20px;
+			overflow: hidden;
+			.banner {
+				top:56%;
+				padding: 9px 0;
+				z-index: 100;
+			}
+			.banner__text-container {
+				height: 42px;
+				margin: 0 auto;
+			}
+			.banner__text {
+				height: 48px;
+				margin-bottom: 0;
+			}
+		}
+		
+		&--alpha {
+			background-color: $C-brand-mustard;
+			.banner {
+				background-color: $C-brand-mustard;
+			}
+			.banner__text-container {
+				width: 104px;
+			}
+			.banner__text {
+				background-position-x: $S-glyph-alpha-x;
+				background-position-y: $S-glyph-alpha-y;
+			}	
+		}
+
+		&--beta {
+			background-color: $C-brand-red;
+			.banner {
+				background-color: $C-brand-red;
+			}
+			.banner__text-container {
+				width: 105px;
+			}
+			.banner__text {
+				background-position-x: $S-glyph-beta-x;
+				background-position-y: $S-glyph-beta-y;
+			}
+		}
+
+		&--delta {
+			background-color: $C-brand-blue;
+			.banner {
+				background-color: $C-brand-blue;
+			}
+			.banner__text-container {
+				width: 263px;
+			}
+			.banner__text {
+				background-position-x: $S-glyph-delta-x;
+				background-position-y: $S-glyph-delta-y;
+			}
+		}
+
+	}
+
+	&__intro-header {
+		
+		text-align: center;
+		padding-top: 85px;
+		margin: 0 auto;
+		width: 273px;
+
+		.banner__text {
+			background-position-x: $S-glyph-intro-x;
+			background-position-y: $S-glyph-intro-y;
+			height: 42px;
+		}
+	}
+
+}

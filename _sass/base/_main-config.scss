@@ -1,0 +1,13 @@
+// ==========================================================================
+// Mobile First Configuration
+// ==========================================================================
+
+@import "../_mobile-styles";
+
+@media only screen and (min-width: $tablet-breakpoint) {
+	@import "../_tablet-styles";
+}
+
+@media only screen and (min-width: $desktop-breakpoint) {
+	@import "../_desktop-styles";
+}

@@ -1,0 +1,63 @@
+.tk {
+
+	&__arrow {
+
+		width: 0; 
+		height: 0; 
+		position: absolute;
+
+		&--bleed {
+
+			$D-arrow-base: 40px;
+
+			&--down {
+				border-left: $D-arrow-base solid transparent;
+				border-right: $D-arrow-base solid transparent;
+				border-top: $D-arrow-base solid $C-layout-bleed;
+				bottom: -39px;
+				left: 50%;
+				margin-left: -40px;
+			}
+		}
+
+		&--panel {
+
+			$D-arrow-base: 15px;
+			$C-arrow: $C-layout-white;
+
+			border-top: $D-arrow-base solid transparent;
+			border-bottom: $D-arrow-base solid transparent;
+
+			&--left {	
+				border-right: $D-arrow-base solid $C-arrow;
+				right: 0px;
+			}
+
+			&--right {	
+				border-left: $D-arrow-base solid $C-arrow;
+				left: 0px;
+			}
+
+			&--down {
+				border-left: $D-arrow-base solid transparent;
+				border-right: $D-arrow-base solid transparent;
+				border-top: $D-arrow-base solid $C-arrow;
+				top:0;
+			}
+
+			&--top {
+				top: 30px;
+			}
+
+			&--bottom {
+				bottom: 30px;
+			}
+		}
+
+		&--hide-mobile {
+			display: none;
+		}
+
+	}
+
+}

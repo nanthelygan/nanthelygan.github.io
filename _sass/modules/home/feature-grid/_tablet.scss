@@ -1,0 +1,22 @@
+.feature-grid {
+
+	&__row {
+
+		&--first {
+			position: inherit;
+			padding-top: 0;
+		}
+	}
+
+	&__panel {
+
+		&--product {
+			margin-bottom: 0;
+		}
+	
+		&--intro {
+			position: inherit;
+		}
+	}
+	
+}

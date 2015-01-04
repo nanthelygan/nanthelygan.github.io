@@ -1,0 +1,13 @@
+.welcome-strip {
+
+	background-color: $C-layout-bleed;
+	padding: 36px 0;
+	text-align: center;
+	font-size: $FS-beech-a;
+	position: relative;
+
+	&__message {
+		font-family: $F-windward;
+	}
+
+}

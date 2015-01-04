@@ -1,0 +1,34 @@
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/snap.svg/0.3.0/snap.svg-min.js"></script>
+<script src="/js/libs/slidebars.min.js"></script>
+<script src="/js/libs/svgicons-config.js"></script>
+<script src="/js/libs/svgicons.js"></script>
+<script src="/js/libs/grid.js"></script>
+
+<script>
+	(function() {
+		// initialize all
+		
+		[].slice.call( document.querySelectorAll( '.si-icons-default > .si-icon' ) ).forEach( function( el ) {
+			var svgicon = new svgIcon( el, svgIconConfig );
+		} );
+
+		new svgIcon( document.querySelector( '.si-icon-hamburger-cross' ), svgIconConfig, { easing : mina.elastic, speed: 600 } );
+
+	})();
+</script>
+
+
+<script>
+  (function($) {
+    $(document).ready(function() {
+      $.slidebars();
+    });
+  }) (jQuery);
+</script>
+
+<script>
+	$(function() {
+		Grid.init();
+	});
+</script>

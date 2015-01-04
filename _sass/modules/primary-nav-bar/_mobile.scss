@@ -1,0 +1,48 @@
+.header {
+
+	background-color: $C-layout-white;
+
+	.col {
+		padding: 0 15px;
+	}
+
+	.row {
+		height: 100px;
+	}
+
+	&__logo {
+	
+		float: left;
+		margin-top: 15px;
+		
+		p {
+			background:transparent url(/images/global/logo/nant-helygan-logo.png) no-repeat 0 0;
+			background-size: 383px 35px;
+			width: 383px;
+			height: 35px;
+			text-indent: -999px;
+			margin:0;
+		}
+	}
+
+	&__nav-toggle {
+		float: right;
+		width: 40px;
+		height: 40px;
+		margin-top: 15px;
+	}
+
+}
+
+.primary-nav {
+
+	&__item {
+
+		text-transform: uppercase;
+
+		a {
+			text-decoration: none;
+			color: #333;
+		}
+	}
+}
