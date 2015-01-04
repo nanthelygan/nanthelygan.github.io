@@ -1289,6 +1289,15 @@ figure.effect-romeo p {
 .no-svg .si-icon-hamburger-cross {
   background-image: url("/images/svg/fallback/hamburger.png"); }
 
+.temp-wrapper {
+  padding-top: 60px;
+  padding-left: 25px;
+  padding-right: 25px;
+  padding-bottom: 10px; }
+
+.header__logo p {
+  background-size: 250px 24px !important; }
+
 body {
   background-color: #f1f1f1; }
 
@@ -1485,7 +1494,22 @@ body {
 @media only screen and (min-width: 740px) {
   .wrapper-main {
     margin: 0 50px;
-    background-color: #fff; } }
+    background-color: #fff; }
+
+  .temp-wrapper {
+    padding-top: 50px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 30px; }
+
+  .header__logo p {
+    background-size: 383px 35px !important; } }
+@media only screen and (min-width: 960px) {
+  .temp-wrapper {
+    padding-top: 70px;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 40px; } }
 .header {
   background-color: #fff; }
   .header .col {
